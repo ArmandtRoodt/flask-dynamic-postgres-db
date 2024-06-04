@@ -13,7 +13,6 @@ app.config['SECRET_KEY'] = 'your_secret_key'
 
 db = SQLAlchemy(app)
 
-
 @app.route('/')
 def index():
     return render_template('index.html')
